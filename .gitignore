@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+*.pyo
+_charge_cmaps/
