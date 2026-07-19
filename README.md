@@ -1,10 +1,10 @@
 # XYZRender GUI
 
 <p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python">
-  <img src="https://img.shields.io/badge/GUI-PyQt5-blue.svg" alt="PyQt5">
-  <img src="https://img.shields.io/badge/backend-xyzrender%20%7C%20molcanvas-green.svg" alt="Backend">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square" alt="Python">
+  <img src="https://img.shields.io/badge/GUI-PyQt5-blue.svg?style=flat-square" alt="PyQt5">
+  <img src="https://img.shields.io/badge/Backend-xyzrender%20%26%20molcanvas-green.svg?style=flat-square" alt="Backend">
 </p>
 
 A **PyQt5**-based graphical interface for molecular structure and isosurface
