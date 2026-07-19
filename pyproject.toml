@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xyzrender-gui"
+version = "1.1.0"
+description = "分子结构 + 等值面 (ESP / MO / 电子密度 / IGMH / 原子电荷) 可视化 PyQt5 图形界面"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Hou Cheng", email = "houcheng-gxnu@users.noreply.github.com" }]
+keywords = ["chemistry", "visualization", "molecular", "esp", "multiwfn", "xyzrender"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = [
+    "PyQt5>=5.15",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/houcheng-gxnu/xyzrenderGUI"
+Repository = "https://github.com/houcheng-gxnu/xyzrenderGUI"
+CNB = "https://cnb.cool/chem311/xyzrenderGUI"
+
+[project.scripts]
+xyzrender-gui = "xyzrender_gui.main:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+xyzrender_gui = ["*.png"]

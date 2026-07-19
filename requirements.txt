@@ -1,0 +1,10 @@
+# 核心依赖 (PyPI 可安装)
+PyQt5>=5.15
+
+# ── 以下两个包为本项目的渲染/画布后端，需从源码安装 ──
+# xyzrender : https://github.com/houcheng-gxnu/xyzrender
+# molcanvas : 随 xyzrender 一同提供的轻量画布包
+#
+# 安装方式 (示例):
+#   pip install git+https://github.com/houcheng-gxnu/xyzrender.git
+#   (molcanvas 通常包含在 xyzrender 仓库内)
